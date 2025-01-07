@@ -2,14 +2,6 @@
 
 local protocol = {
 
-  scheduleForSend = function(self, meta)
-    
-  end,
-
-  scheduleAfterReceive = function(self, meta)
-    
-  end,
-
   execute = function(self, meta)
     -- todo, insert config hash...
     log(1, "Computing config hash...")
