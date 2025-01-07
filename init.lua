@@ -24,7 +24,7 @@ local checkIsHost = function() return core.readInteger(IS_HOST_ADDRESS) ~= 0 end
 
 local namespace = {
   enable = function(self, config)
-    local protocolNumber = modules.protocol:registerCustomProtocol("multiplayer-commands", "config-similarity-protocol", "IMMEDIATE", 0, protocol)
+    local protocolNumber = modules.protocol:registerCustomProtocol("multiplayer-tools", "config-similarity-protocol", "IMMEDIATE", 0, protocol)
     local cb = function(args, command)
       -- If you want to set up your data gathering before sending the command, do it here and now just like the game does
 
