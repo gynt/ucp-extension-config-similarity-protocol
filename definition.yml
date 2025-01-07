@@ -1,4 +1,4 @@
-name: config-similarity-protocol
+name: multiplayer-commands
 version: 1.0.0
 author: gynt
 dependencies:
